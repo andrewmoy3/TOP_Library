@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.library{
+    display: grid;
+    justify-items: center;
+    width: 100vw;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.card{
+    display: grid;
+    gap: 15px;
+    grid-template: 1fr 1fr / 1fr 1fr;
+}
